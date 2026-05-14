@@ -44,7 +44,8 @@ yourself. It's possible to change the Klipper Repo URL with this method.
 5. Run `docker compose up -d --build` to build the docker image and start the
    container in detached mode
 
-Alternatively you can execute `docker-compose -f docker-compose.build.yml -f docker-compose.yml up -d --build`
+Alternatively you can execute `docker compose -f docker-compose.build.yml -f
+docker-compose.yml up -d --build`
 ---
 
 ## Configure a Dummy-Webcam
